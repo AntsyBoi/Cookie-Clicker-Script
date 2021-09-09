@@ -1,12 +1,11 @@
-s1 = 1; //Needed this variable to keep the loops running please ignore
-killswitch = 0; //Defines killswitch variable
+killswitch = 0; //Defines kill switch variable
 function sleep(ms){
   return new Promise(resolve => setTimeout(resolve, ms));
 }; // I didnt write this part lol I just know it adds a sleep function
-s2 = async function(amount, time){ //Creates the s2 function for adding cookies at a set interval
-  while(s1 = 1){ //keeps this constantly running
+cheat = async function(amount, time){ //Creates the s2 function for adding cookies at a set interval
+  while(true === true){ //keeps this constantly running
     if(killswitch == 1){
-      break; //Checks if the killswitch has been activated and if it has it kills the script
+      break; //Checks if the kill switch has been activated and if it has it kills the script
     };
     await sleep(time); // Pauses the script for the amount of time specified in the "time" variable in the s2 function before adding more cookies
     Game.cookies = Game.cookies+amount // Adds the specified amount of cookies to the total amount of cookies
