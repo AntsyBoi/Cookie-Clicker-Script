@@ -12,7 +12,7 @@
 
 # Example
 
-	s2(200, 100) //Adds 200 cookies every 100 milliseconds
+	hack(200, 100) //Adds 200 cookies every 100 milliseconds
 	killswitch = 1 // To stop all instances of s2
 	killswitch = 0 // To allow use of s2 again
     wipe() // Wipes all save data
